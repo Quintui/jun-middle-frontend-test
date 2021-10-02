@@ -8,11 +8,7 @@ export default {
   component: Example,
 } as Meta
 
-const Template: Story<IProps> = (args) => (
-  <div style={{ backgroundColor: 'lightgrey', padding: 24 }}>
-    <Example {...args} />
-  </div>
-)
+const Template: Story<IProps> = (args) => <Example {...args} />
 
 export const Primary = Template.bind({})
 Primary.args = {}

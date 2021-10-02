@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 10px;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.plus-icon {
+  height: 20px;
+}
