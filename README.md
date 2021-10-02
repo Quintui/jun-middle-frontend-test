@@ -1,4 +1,8 @@
-# Задание
+# Junior/Middle react developer
+
+Ссылка на вакансию на djinni: [https://djinni.co/jobs/311983-junior-middle-react-developer-v-molodoi-start](https://djinni.co/jobs/311983-junior-middle-react-developer-v-molodoi-start)
+
+## Задача
 
 **Собрать компонент по готовому дизайну и прототипу.**
 
@@ -13,20 +17,16 @@
 
 **По техническим и другим вопросам**
 
-Можно писать мне в ответе на вакансию на djinni: [https://djinni.co/jobs/311983-junior-middle-react-developer-v-molodoi-start](https://djinni.co/jobs/311983-junior-middle-react-developer-v-molodoi-start)
+Можно писать мне в ответе на вакансию на djinni (ссылка выше)
 
----
-
-# Setup
+## Setup
 
 `yarn` – для установки зависимостей
 
 `yarn storybook` – для запуска сторибука и старта работы
 
----
-
-# Как сдавать тестовое задание
+## Как сдавать тестовое задание
 
 1. Сделать клон этого репозитория себе
 2. Сделать тестовое задание
-3. Отправить ссылку на публичный репозиторий в вашем аккаунте на github в ответ на вакансию на djinni: [https://djinni.co/jobs/311983-junior-middle-react-developer-v-molodoi-start](https://djinni.co/jobs/311983-junior-middle-react-developer-v-molodoi-start)
+3. Отправить ссылку на публичный репозиторий в вашем аккаунте на github в ответ на вакансию на djinni (ссылка выше)
