@@ -5,14 +5,23 @@
 }
 
 .container {
-  padding: 10px;
+  width: 216px;
+  padding: 15px;
 }
 
 .title-wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title-text {
+  color: #000000;
+  opacity: 0.8;
 }
 
 .plus-icon {
-  height: 20px;
+  height: 18px;
+  color: grey;
 }
