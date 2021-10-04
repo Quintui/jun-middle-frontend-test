@@ -17,7 +17,7 @@ export const Example: React.FC<Props> = ({ dropdown }) => {
         <PlusIcon className="plus-icon" />
       </div>
       {dropdown.map((item) => (
-        <Dropdown key={item.id} dropdown={item} />
+        <Dropdown key={item.id} dropdown={item} depth={1} />
       ))}
     </div>
   )
