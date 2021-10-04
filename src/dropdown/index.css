@@ -6,7 +6,9 @@
 
 .container {
   width: 216px;
-  padding: 15px;
+  margin: 10px;
+  padding: 16px 8px;
+  box-shadow: 0px 3px 14px 0px #0000001a;
 }
 
 .title-wrapper {
@@ -14,14 +16,26 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
+  margin-left: 8px;
 }
 
 .title-text {
   color: #000000;
+  font-size: 11px;
   opacity: 0.8;
 }
 
 .plus-icon {
-  height: 18px;
-  color: grey;
+  height: 25px;
+  margin-right: 8px;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.plus-icon:hover {
+  background-color: #f0f0f0;
+}
+.plus-icon:active {
+  background-color: #1789e8;
 }

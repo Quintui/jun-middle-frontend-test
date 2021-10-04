@@ -24,7 +24,12 @@ Primary.args = {
           nest: {
             id: '1',
             label: 'Nested item label',
-            items: [{ itemLabel: 'nested item label 1 ', id: '1' }],
+            items: [
+              {
+                itemLabel: 'nested item label 1 ',
+                id: '1',
+              },
+            ],
           },
         },
         {
@@ -33,6 +38,34 @@ Primary.args = {
         },
         {
           id: '3',
+          itemLabel: 'Item 3 label',
+        },
+      ],
+    },
+    {
+      id: '2',
+      label: 'test',
+      items: [
+        {
+          id: '2',
+          itemLabel: 'Item label',
+          nest: {
+            id: '2',
+            label: 'Nested item label',
+            items: [
+              {
+                itemLabel: 'nested item label 1 ',
+                id: '2',
+              },
+            ],
+          },
+        },
+        {
+          id: '3',
+          itemLabel: 'Item 2 label',
+        },
+        {
+          id: '4',
           itemLabel: 'Item 3 label',
         },
       ],

@@ -13,7 +13,7 @@ export const Example: React.FC<Props> = ({ dropdown }) => {
   return (
     <div className="container">
       <div className="title-wrapper">
-        <h5 className="title-text">Saved Graphs</h5>
+        <h4 className="title-text">Saved Graphs</h4>
         <PlusIcon className="plus-icon" />
       </div>
       {dropdown.map((item) => (
