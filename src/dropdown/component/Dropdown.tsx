@@ -24,7 +24,7 @@ export const Dropdown: FC<Props> = ({ dropdown, depth }) => {
 
         <h5 className="dropdown-label_text textwrap">{dropdown.label}</h5>
       </div>
-      <div style={{ marginLeft: depth === 0 ? 5 : 5 * depth }}>
+      <div style={{ marginLeft: depth === 0 ? 7 : 7 * depth }}>
         {isOpen &&
           dropdown.items.map((item) => {
             if (item.nest) {

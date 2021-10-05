@@ -16,57 +16,61 @@ Primary.args = {
   dropdown: [
     {
       id: '1',
-      label: 'test',
+      label: 'Folder',
       items: [
         {
           id: '1',
-          itemLabel: 'Item label',
+          itemLabel: 'Subfolder',
           nest: {
             id: '1',
-            label: 'Nested item label',
+            label: 'Icons',
             items: [
               {
-                itemLabel: 'nested item label 1  ',
+                itemLabel: 'Icon 1',
                 id: '1',
               },
-            ],
-          },
-        },
-        {
-          id: '2',
-          itemLabel: 'Item 2 label',
-        },
-        {
-          id: '3',
-          itemLabel: 'Item 3 label',
-        },
-      ],
-    },
-    {
-      id: '2',
-      label: 'test',
-      items: [
-        {
-          id: '2',
-          itemLabel: 'Item label',
-          nest: {
-            id: '2',
-            label: 'Nested item label',
-            items: [
               {
-                itemLabel: 'nested item label 1 ',
+                itemLabel: 'Icon 2',
                 id: '2',
               },
             ],
           },
         },
         {
-          id: '3',
-          itemLabel: 'Item 2 label',
+          id: '2',
+          itemLabel: 'Profile Setting',
         },
         {
-          id: '4',
-          itemLabel: 'Item 3 label',
+          id: '3',
+          itemLabel: 'User appearance',
+        },
+      ],
+    },
+    {
+      id: '2',
+      label: 'Folder 2',
+      items: [
+        {
+          id: '2',
+          itemLabel: 'Subfolder',
+          nest: {
+            id: '2',
+            label: 'Images',
+            items: [
+              {
+                itemLabel: 'Image 1',
+                id: '2',
+              },
+              {
+                itemLabel: 'Image 2',
+                id: '3',
+              },
+            ],
+          },
+        },
+        {
+          id: '3',
+          itemLabel: 'User Setting',
         },
       ],
     },
