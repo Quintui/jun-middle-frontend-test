@@ -1,9 +1,6 @@
-import {
-  AdjustmentsIcon,
-  ChevronDownIcon,
-  ChevronRightIcon,
-} from '@heroicons/react/solid'
 import React, { FC, useState } from 'react'
+import { GoSettings } from 'react-icons/go'
+import { IoMdArrowDropright, IoMdArrowDropdown } from 'react-icons/io'
 
 import { DropdownType } from '../types'
 import './Dropdown.css'
@@ -20,14 +17,14 @@ export const Dropdown: FC<Props> = ({ dropdown, depth }) => {
     <div>
       <div onClick={() => setIsOpen(!isOpen)} className="  dropdown_container ">
         {isOpen ? (
-          <ChevronDownIcon className="arrow" />
+          <IoMdArrowDropdown className="arrow" />
         ) : (
-          <ChevronRightIcon className="arrow" />
+          <IoMdArrowDropright className="arrow" />
         )}
 
-        <h5 className="dropdown-label_text">{dropdown.label}</h5>
+        <h5 className="dropdown-label_text textwrap">{dropdown.label}</h5>
       </div>
-      <div style={{ marginLeft: depth === 1 ? 5 : 5 * depth }}>
+      <div style={{ marginLeft: depth === 0 ? 5 : 5 * depth }}>
         {isOpen &&
           dropdown.items.map((item) => {
             if (item.nest) {
@@ -35,8 +32,8 @@ export const Dropdown: FC<Props> = ({ dropdown, depth }) => {
             }
             return (
               <div className="dropdown-item_wrapper" key={item.id}>
-                <p className="dropdown-item_text ">{item.itemLabel}</p>
-                <AdjustmentsIcon className="setting_icon" />
+                <p className="dropdown-item_text textwrap ">{item.itemLabel}</p>
+                <GoSettings className="setting_icon" />
               </div>
             )
           })}

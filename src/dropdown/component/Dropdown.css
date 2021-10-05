@@ -6,6 +6,13 @@
   cursor: pointer;
 }
 
+.textwrap {
+  width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .dropdown_container:hover,
 .dropdown-item_wrapper:hover {
   background-color: #f0f0f0;
@@ -35,7 +42,8 @@
 }
 
 .setting_icon {
-  height: 25px;
+  width: 23px;
+  height: 23px;
   padding: 5px;
   border-radius: 2px;
   cursor: pointer;

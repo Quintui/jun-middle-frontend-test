@@ -1,5 +1,5 @@
-import { PlusIcon } from '@heroicons/react/solid'
 import React from 'react'
+import { AiOutlinePlus } from 'react-icons/ai'
 
 import { Dropdown } from './component/Dropdown'
 import './index.css'
@@ -14,10 +14,11 @@ export const Example: React.FC<Props> = ({ dropdown }) => {
     <div className="container">
       <div className="title-wrapper">
         <h4 className="title-text">Saved Graphs</h4>
-        <PlusIcon className="plus-icon" />
+        <AiOutlinePlus className="plus-icon" />
       </div>
+
       {dropdown.map((item) => (
-        <Dropdown key={item.id} dropdown={item} depth={1} />
+        <Dropdown key={item.id} dropdown={item} depth={0} />
       ))}
     </div>
   )

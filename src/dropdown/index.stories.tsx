@@ -26,7 +26,7 @@ Primary.args = {
             label: 'Nested item label',
             items: [
               {
-                itemLabel: 'nested item label 1 ',
+                itemLabel: 'nested item label 1  ',
                 id: '1',
               },
             ],
